@@ -2,12 +2,10 @@
 This example shows how to use axum to develop a web socket [axum](https://docs.rs/axum/0.1.1/axum/ws/index.html).
 The idea is that the `lib.rs` file handles the client and user and http requests and opens the web sockets.
 
-<<<<<<< HEAD
 # Run it
 Run it locally: `cargo shuttle run`
 Curl it to test it: `curl localhost:8000/hello`
 
-=======
 ## Structure
 This example has only 1 file register to handle the http communication between server and client.
 
@@ -31,7 +29,6 @@ $ cargo shuttle deploy
 ```sh
 $ cargo run
 ```
->>>>>>> origin/update#1
 
 
 
